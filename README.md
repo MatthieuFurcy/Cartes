@@ -13,8 +13,6 @@
 
 <h2>Structure du projet</h2>
 <pre>
-cartes/
-│
 ├─ c_carte.h            # Déclaration de la classe c_carte
 ├─ c_carte.cpp          # Implémentation de la classe c_carte
 ├─ c_paquetdecartes.h   # Déclaration de la classe c_paquetDeCartes
