@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP Cartes – Session 2026</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        h1, h2, h3 { color: #2c3e50; }
-        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-        pre { background-color: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
-        ul { margin-top: 0; }
-    </style>
-</head>
-<body>
-
-<h1>TP Cartes – Session 2026</h1>
-
 <p>Ce projet est un <strong>TP de programmation orientée objet en C++</strong> qui implémente un jeu de cartes et un paquet de cartes. Il permet de manipuler des cartes individuellement ou en paquet, de les mélanger et de les distribuer.</p>
 
 <h2>Fonctionnalités</h2>
@@ -44,7 +26,7 @@ cartes/
 <h2>Compilation et exécution</h2>
 <p>Pour compiler le projet sur un système Windows ou Linux avec <code>g++</code> :</p>
 <pre>
-g++ cartes/c_carte.cpp cartes/c_paquetdecartes.cpp main.cpp -o programme.exe
+g++ c_carte.cpp c_paquetdecartes.cpp main.cpp -o programme.exe
 </pre>
 <p>Puis pour exécuter :</p>
 <pre>
@@ -63,8 +45,6 @@ paquet.distribuer(carteDistribuee);  // Distribution de la première carte
 cout &lt;&lt; carteDistribuee &lt;&lt; endl;     // Affiche la carte
 </pre>
 
-<h2>Auteurs</h2>
-<p><strong>Matthieu Furcy</strong> – TP Cartes – Session 2026</p>
 
 </body>
 </html>
